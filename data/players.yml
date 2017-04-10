@@ -1,0 +1,16 @@
+- name: Jaina
+  classi: Mage
+  pic: jaina.png
+  description: Proudmoore
+  background: hearthstone1.png
+- name: Anduin
+  classi: Priest
+  pic: anduin.png
+  description: Wrynn
+  background: hearthstone1.png
+- name: Thrall
+  classi: Shaman
+  pic: thrall.png
+  description: Orc
+  background: hearthstone1.png
+
