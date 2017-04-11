@@ -13,4 +13,18 @@
   pic: thrall.png
   description: Orc
   background: hearthstone1.png
-
+- name: Guldan
+  classi: Warlock
+  pic: guldan.png
+  description: Orc
+  background: hearthstone1.png
+- name: Garrosh
+  classi: Warrior
+  pic: garrosh.png
+  description: Hellscream
+  background: hearthstone1.png
+- name: Malfurion
+  classi: Druid
+  pic: malfurion.png
+  description: Stormrage
+  background: hearthstone1.png

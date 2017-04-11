@@ -50,7 +50,7 @@ title: Le Wagon Middleman boilerplate
                 <p><%= play.description %></p>
               </div>
               <%= image_tag play.pic, class: "avatar card-user card-size" %>
-              <a href="" class="card-link"></a>
+              <%= link_to "#", "cards/#{play.name}.html", class: "card-link" %>
             </div>
           </div>
         <% end %>
@@ -94,6 +94,3 @@ title: Le Wagon Middleman boilerplate
     </script>
 
 
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

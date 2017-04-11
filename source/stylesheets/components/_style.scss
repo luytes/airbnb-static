@@ -1,0 +1,44 @@
+// @import url("components/avatar.css");
+// @import url("components/banner.css");
+// @import url("components/footer.css");
+// @import url("components/card.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: $grey;
+}
+.features {
+  /*background-color: #6AD58B;*/
+  border-radius: 20px;
+}
+.features h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.features p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.features img {
+  margin-top: 0;
+  width: 135px;
+}
