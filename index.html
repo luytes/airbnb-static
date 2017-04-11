@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Le Wagon Middleman boilerplate</title>
+
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <script src="javascripts/all.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="index">
+
+    <div class="navbar-wagon">
+  <!-- Logo -->
+<a class="navbar-wagon-brand" href="/">    <img src="images/lewagon.png" />
+</a>
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Search form -->
+    <form action="" class="navbar-wagon-search">
+      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
+      <button type="submit" class="navbar-wagon-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <!-- Text link -->
+    <a href="https://www.lewagon.com" target="blank" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+
+    <!-- Text link -->
+    <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a> -->
+    <a class="navbar-wagon-item navbar-wagon-link" href="team.html">Team</a>
+
+    <!-- Notification link-->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="badge badge-blue">3</div>
+      </div>
+    </a>
+
+    <!-- Profile picture and dropdown -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="images/tinyfin.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Button (call-to-action) -->
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+        <!-- Banner -->
+
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/innkeeper.jpg');">
+      <div class="banner-content">
+        <h1>Hearthstone</h1>
+        <p>Busy night...but there's always room for another!</p>
+        <form action="#" class="form-inline">
+          <input type="text" class="form-control input-lg" placeholder="checkin">
+          <input type="text" class="form-control input-lg" placeholder="checkout">
+          <select name="" id="" class="form-control input-lg">
+            <option value="1">1 person</option>
+            <option value="2">2 persons</option>
+            <option value="3">3 persons</option>
+          </select>
+          <input type="submit" class="btn btn-primary btn-lg" value="GET IN">
+        </form>
+      </div>
+    </div>
+
+    <!-- Features -->
+
+    <div class="container text-center padded features">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <!-- <img src="images/globe.png" alt=""> -->
+          <img src="images/globe.png" />
+          <h3>Play Worldwide</h3>
+          <p>against other Players</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <!-- <img src="images/globe.png" alt=""> -->
+          <img src="images/dollar.png" />
+          <h3>Get rich</h3>
+          <p>with gold</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <!-- <img src="images/globe.png" alt=""> -->
+          <img src="images/beer.png" />
+          <h3>Relax</h3>
+          <p>and drink beer!</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <!-- <img src="images/globe.png" alt=""> -->
+          <img src="images/heart.png" />
+          <h3>Find Cards</h3>
+          <p>with the best packs</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your cards code -->
+
+    <div class="wrapper-grey padded">
+      <div class="container">
+        <h2 class="text-center">Your next Opponent</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,100,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/hearthstone1.png);">
+              <div class="card-category">Mage</div>
+              <div class="card-description">
+                <h3>Jaina</h3>
+                <p>Proudmoore</p>
+              </div>
+              <img class="avatar card-user card-size" src="images/jaina.png" />
+              <a class="card-link" href="cards/Jaina.html">#</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,100,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/hearthstone1.png);">
+              <div class="card-category">Priest</div>
+              <div class="card-description">
+                <h3>Anduin</h3>
+                <p>Wrynn</p>
+              </div>
+              <img class="avatar card-user card-size" src="images/anduin.png" />
+              <a class="card-link" href="cards/Anduin.html">#</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,100,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/hearthstone1.png);">
+              <div class="card-category">Shaman</div>
+              <div class="card-description">
+                <h3>Thrall</h3>
+                <p>Orc</p>
+              </div>
+              <img class="avatar card-user card-size" src="images/thrall.png" />
+              <a class="card-link" href="cards/Thrall.html">#</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,100,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/hearthstone1.png);">
+              <div class="card-category">Warlock</div>
+              <div class="card-description">
+                <h3>Guldan</h3>
+                <p>Orc</p>
+              </div>
+              <img class="avatar card-user card-size" src="images/guldan.png" />
+              <a class="card-link" href="cards/Guldan.html">#</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,100,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/hearthstone1.png);">
+              <div class="card-category">Warrior</div>
+              <div class="card-description">
+                <h3>Garrosh</h3>
+                <p>Hellscream</p>
+              </div>
+              <img class="avatar card-user card-size" src="images/garrosh.png" />
+              <a class="card-link" href="cards/Garrosh.html">#</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,100,168,0.8) 0%, rgba(0,36,61,0.6) 50%), url(images/hearthstone1.png);">
+              <div class="card-category">Druid</div>
+              <div class="card-description">
+                <h3>Malfurion</h3>
+                <p>Stormrage</p>
+              </div>
+              <img class="avatar card-user card-size" src="images/malfurion.png" />
+              <a class="card-link" href="cards/Malfurion.html">#</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Your newsletter code -->
+
+    <div class="container">
+      <div class="form-group text-center padded">
+      <h2>Sign Up For Hearthstone</h2>
+        <form action="#" class="form-inline">
+          <input type="email" class="form-control" placeholder="innkeeper@hs.com">
+          <input type="submit" value="Sign Up" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [{"elementType":"labels","stylers":[{"visibility":"off"},{"color":"#f49f53"}]},{"featureType":"landscape","stylers":[{"color":"#f9ddc5"},{"lightness":-7}]},{"featureType":"road","stylers":[{"color":"#813033"},{"lightness":43}]},{"featureType":"poi.business","stylers":[{"color":"#645c20"},{"lightness":38}]},{"featureType":"water","stylers":[{"color":"#1994bf"},{"saturation":-69},{"gamma":0.99},{"lightness":43}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"#f19f53"},{"weight":1.3},{"visibility":"on"},{"lightness":16}]},{"featureType":"poi.business"},{"featureType":"poi.park","stylers":[{"color":"#645c20"},{"lightness":39}]},{"featureType":"poi.school","stylers":[{"color":"#a95521"},{"lightness":35}]},{},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"color":"#813033"},{"lightness":38},{"visibility":"off"}]},{},{},{},{},{},{},{},{},{},{},{},{"elementType":"labels"},{"featureType":"poi.sports_complex","stylers":[{"color":"#9e5916"},{"lightness":32}]},{},{"featureType":"poi.government","stylers":[{"color":"#9e5916"},{"lightness":46}]},{"featureType":"transit.station","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","stylers":[{"color":"#813033"},{"lightness":22}]},{"featureType":"transit","stylers":[{"lightness":38}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#f19f53"},{"lightness":-10}]},{},{},{}] // TODO: replace [] by array from https://snazzymaps.com/
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+    });
+    </script>
+
+
+
+    <div id="footer-black">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-4">
+        <ul class="list-inline">
+          <li><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://www.twitter.com/" target="blank"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-xs-8 text-right">
+        <p>This is a Hearthstone Home challenge @ LeWagon</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>
